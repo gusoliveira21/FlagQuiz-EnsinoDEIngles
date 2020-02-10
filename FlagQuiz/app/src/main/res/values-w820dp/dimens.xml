@@ -1,0 +1,6 @@
+<resources>
+    <!-- Exemplo de customização de dimensões originalmente definidas em res / values / dimens.xml
+          (como margens da tela) para telas com mais de 820dp de largura disponível. este
+          incluiria dispositivos de 7 "e 10" em paisagem (~ 960dp e ~ 1280dp, respectivamente) -->
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+</resources>

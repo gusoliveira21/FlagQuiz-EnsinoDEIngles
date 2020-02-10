@@ -1,0 +1,178 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/quizLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fundo0"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivityFragment"
+    tools:showIn="@layout/activity_main">
+
+   <TextView
+       android:gravity="center"
+       android:id="@+id/questionNumberTextView"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center_horizontal"
+       android:layout_marginBottom="@dimen/spacing"
+       android:text="@string/question"
+       android:textAppearance="?android:attr/textAppearanceMedium"
+       android:textColor="#FEFEFE"
+       android:background="@drawable/configura_fundo_escuro"/>
+
+   <ImageView
+       android:id="@+id/flagImageView"
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_gravity="center"
+       android:layout_marginLeft="@dimen/activity_horizontal_margin"
+       android:layout_marginRight="@dimen/activity_horizontal_margin"
+       android:layout_marginBottom="@dimen/spacing"
+       android:layout_weight="1"
+       android:adjustViewBounds="true"
+       android:contentDescription="@string/image_description"
+       android:scaleType="fitCenter" />
+
+   <TextView
+       android:gravity="center"
+       android:id="@+id/guessCountryTextView"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center_horizontal"
+       android:text="@string/guess_country"
+       android:textAppearance="?android:attr/textAppearanceMedium"
+       android:textColor="#FEFEFE"
+       android:background="@drawable/configura_fundo_escuro"/>
+
+   <LinearLayout
+       android:id="@+id/row1LinearLayout"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+      <Button
+          android:id="@+id/button"
+          style="@android:style/Widget.Material.Button.Colored"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:lines="2"
+          android:text="New Button"
+          android:textColor="#000000"
+          android:background="@drawable/configura_botao_branco"
+          />
+
+      <Button
+          android:id="@+id/button2"
+          style="@android:style/Widget.Material.Button.Colored"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:lines="2"
+          android:text="New Button"
+          android:textColor="#000000"
+          android:background="@drawable/configura_botao_branco" />
+   </LinearLayout>
+
+   <LinearLayout
+       android:id="@+id/row2LinearLayout"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+      <Button
+          android:id="@+id/button3"
+          style="@android:style/Widget.Material.Button.Colored"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:lines="2"
+          android:text="New Button"
+          android:textColor="#000000"
+          android:background="@drawable/configura_botao_branco" />
+
+      <Button
+          android:id="@+id/button4"
+          style="@android:style/Widget.Material.Button.Colored"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:lines="2"
+          android:text="New Button"
+          android:textColor="#000000"
+          android:background="@drawable/configura_botao_branco" />
+   </LinearLayout>
+
+   <LinearLayout
+       android:id="@+id/row3LinearLayout"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+      <Button
+          android:id="@+id/button5"
+          style="@android:style/Widget.Material.Button.Colored"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:lines="2"
+          android:text="New Button"
+          android:textColor="#000000"
+          android:background="@drawable/configura_botao_branco" />
+
+      <Button
+          android:id="@+id/button6"
+          style="@android:style/Widget.Material.Button.Colored"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:lines="2"
+          android:text="New Button"
+          android:textColor="#000000"
+          android:background="@drawable/configura_botao_branco" />
+   </LinearLayout>
+
+   <LinearLayout
+       android:id="@+id/row4LinearLayout"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+      <Button
+          android:id="@+id/button7"
+          style="@android:style/Widget.Material.Button.Colored"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:lines="2"
+          android:text="New Button"
+          android:textColor="#000000"
+          android:background="@drawable/configura_botao_branco" />
+
+      <Button
+          android:id="@+id/button8"
+          style="@android:style/Widget.Material.Button.Colored"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:lines="2"
+          android:text="New Button"
+          android:textColor="#000000"
+          android:background="@drawable/configura_botao_branco" />
+   </LinearLayout>
+
+   <TextView
+       android:id="@+id/answerTextView"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="bottom|center_horizontal"
+       android:gravity="center_horizontal"
+       android:text="Medium Text"
+       android:textAppearance="?android:attr/textAppearanceMedium"
+       android:textSize="@dimen/answer_size"
+       android:textStyle="bold" />
+</LinearLayout>

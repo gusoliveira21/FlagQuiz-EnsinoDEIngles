@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <string-array name="regions_list">
+      <item>Acoes</item>
+      <item>Gerund</item>
+      <item>Infinitivo</item>
+      <item>Modal_Verbs</item>
+      <item>Girias</item>
+
+   </string-array>
+
+   <string-array name="regions_list_for_settings">
+      <item>Ações</item>
+      <item>Gerund</item>
+      <item>Infinitivo</item>
+      <item>Modal Verbs</item>
+      <item>Girias Belém</item>
+   </string-array>
+
+   <string-array name="guesses_list">
+      <item>2</item>
+      <item>4</item>
+      <item>6</item>
+      <item>8</item>
+   </string-array>
+
+</resources>

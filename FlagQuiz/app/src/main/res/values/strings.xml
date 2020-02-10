@@ -1,0 +1,19 @@
+<resources>
+   <string name="app_name">Quiz</string>
+   <string name="guesses_list"></string>
+   <string name="action_settings">Configuraçãoooo</string>
+   <string name="number_of_choices">Número de escolha</string>
+   <string name="number_of_choices_description">Exibir 2, 4, 6 ou 8 botões de palpites</string>
+   <string name="world_regions">Temas</string>
+   <string name="world_regions_description">Temas disponíveis para o quiz</string>
+   <string name="guess_country">Escolha o Significado</string>
+   <string name="results">%1$d palpites, %2$.02f%% correta</string>
+   <string name="incorrect_answer">Incorreto!</string>
+   <string name="default_region_message">Um tema deve ser selecionado.</string>
+   <string name="restarting_quiz">O questionário será reiniciado com suas novas configurações</string>
+   <string name="question">Questão %1$d de %2$d</string>
+   <string name="reset_quiz">Resetar Questionário</string>
+   <string name="image_description">Tema atual no questionário</string>
+   <string name="default_region">Infinitivo</string>
+   <string name="title_activity_settings">Configuração</string>
+</resources>
