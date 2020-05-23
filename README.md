@@ -1,5 +1,5 @@
 # 🎮 MiniGame - Ensino DE Ingles
- <i>Esse programa foi adaptado do livro Android 6 para programadores 3 edição</i>
+ <h6>Esse programa foi adaptado do livro Android 6 para programadores 3 edição</h6>
  <ul>
  <li>foi adaptado para o ensino/treino de alguns verbos irregulares da lingua inglesa.</li>
  <li>Contem um modo para descontração "Gírias Blém".</li>
